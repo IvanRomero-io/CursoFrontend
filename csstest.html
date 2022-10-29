@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Document</title>
+        <style>
+            h1::first-letter {
+                color: red ;
+            }
+            h1{
+                color: blue;
+            }
+
+            h1:hover::after{
+                color: salmon !important;
+                content: "🎊💚";
+            }
+            
+            #acheuno{color: blueviolet;} 
+            .esteve{
+                color: antiquewhite;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 style="color: orange;" class="esteve" id="acheuno">Hola mundo</h1>
+    </body>
+</html>
+
+<!-- ❗Nota de esta clase❗ 
+la especifidad se relfeja de esta marera
+!important > STYLE EN LINEA > ID > CLASS O PSUDO ELEMENTO > CARACTER GLOBAL 
+-->
