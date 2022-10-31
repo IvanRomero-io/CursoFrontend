@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                background-image: linear-gradient(#395B64, #A5C9CA, #E7F6F2 )
+            }
+
+            section{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+
+            .card{
+                width: 609px;
+                height: 609px;
+                background: #2C3333;
+                border-radius: 40px;
+                overflow: hidden;
+            }
+
+            .img-1{
+                width: 100%;
+                z-index: 2;
+            }
+
+            .imagen-2{
+                width: 40%;
+                border-radius: 100px;
+                position: relative;
+                left: 190px;
+                top: -90px;
+                z-index: 4;
+            }
+
+            .card p{
+                text-align: center;
+                color: azure;
+                margin-top: -80px;
+                font-family: 'Rowdies', cursive;       
+            }
+
+            .card p:nth-child(4){
+                text-align: center;
+                color: azure;
+                margin-top: 10px;  
+                font-family: 'Courier New', Courier, monospace;  
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="card">
+                <img class="img-1" src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?cs=srgb&dl=pexels-jaime-reimer-2662116.jpg&fm=jpg&_gl=1*1unm828*_ga*ODQ0MjYzNDY0LjE2NjY5MzYwMzM.*_ga_8JE65Q40S6*MTY2NzE5MzkzMS4zLjEuMTY2NzE5Mzk4NS4wLjAuMA.." alt="Montañas-rio-nieve">
+                <img class="imagen-2" src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" alt="foto-de-perfil">
+                <p>IVAN ROMERO</p>
+                <p>Freelance Web Developer and Data Scientist Student</p>
+            </div>
+        </section>
+    </body>
+</html>
